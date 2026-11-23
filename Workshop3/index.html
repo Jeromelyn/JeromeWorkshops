@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My First HTML Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        h2 {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="color: rgb(0, 0, 0);">Welcome to My Website</h1>
+
+
+    <div class="content-box">
+        <!-- Task 4: grayscale filter, removed on hover -->
+        <img class="filter-image"
+             src="Images/20240411_152423.jpg"
+             width="400"
+             height="500"
+             alt="A photo of my dog">
+        <h3>About Me</h3>
+
+        <p>
+            Hey thanks for coming to my  webpage. My name is Jerome i am a student at Laurea University of Applied Sciences. I am currently studying to become a cyber security specialist. 
+            I have a passion for technology and enjoy learning about new advancements in the field. 
+            In my free time, I like to play video games, watch movies, and spend time with my friends and family. Also enjoy a photo of my dog.
+        </p>
+    </div>
+
+    <h2>My Hobbies</h2>
+    <!-- Task 3: pseudo-class (alternating item colors) -->
+    <ul class="pseudo-list">
+        <li>Esports</li>
+        <li>Watching movies</li>
+        <li>Travelling</li>
+        <li>Learning new skills</li>
+    </ul>
+
+    <h2>My Favorite Website</h2>
+
+    <p>
+        Visit my favorite website:
+        <a href="https://www.laurea.fi">
+         Laurea University
+        </a>
+    </p>
+
+    <h2>My Courses</h2>
+
+    <table>
+        <tr>
+            <th>Course Name</th>
+            <th>Course Code</th>
+        </tr>
+
+        <tr>
+            <td>Web Site Development</td>
+            <td>ND00CC68-3003</td>
+        </tr>
+
+        <tr>
+            <td>Professional Communication Skills</td>
+            <td>R0234-3044</td>
+        </tr>
+
+        <tr>
+            <td>Basics of ICT Infrastructure and Cloud Services</td>
+            <td>ND00CC67-3004</td>
+        </tr>
+    </table>
+
+    <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    <h2>Workshop 3: Advanced CSS</h2>
+
+    <h3>Task 1: CSS Transitions</h3>
+    <button class="transition-button">Hover me</button>
+
+    <h3>Task 2: CSS Animations</h3>
+    <div class="animation-box"></div>
+
+    <h3>Task 5: CSS Pseudo-elements</h3>
+    <blockquote class="quote">
+        This is a sample quote.
+    </blockquote>
+
+</body>
+</html>
